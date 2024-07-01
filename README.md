@@ -11,6 +11,6 @@ I update dependencies regularly. These are the steps:
 1. **Directory not empty. Continue?** Yes.
 1. **Which Svelte app template?** Library project.
 1. **Add type checking with TypeScript?** Yes, using JavaScript with JSDoc comments.
-1. Add ESLint and Prettier.
+1. Add ESLint, Prettier and Vitest.
 1. Revert `README.md`.
 1. Delete folder `node_modules` and file `pnpm-lock.yaml` and run `pnpm i`.

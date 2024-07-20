@@ -10,9 +10,7 @@ I update dependencies regularly. These are the steps:
 1. **Where should we create your project?** Hit enter to use the current directory.
 1. **Directory not empty. Continue?** Yes.
 1. **Which Svelte app template?** Library project.
-1. **Add type checking with TypeScript?** Yes, using JavaScript with JSDoc comments.
+1. **Add type checking with TypeScript?** Yes, using TypScript syntax.
 1. Add ESLint, Prettier and Vitest.
 1. Revert `README.md`.
-1. Run `pnpm i -D eslint-plugin-jsdoc`.
-1. Check changes in `eslint.config.js` and manually revert preserving `eslint-plugin-jsdoc`.
 1. Delete folder `node_modules` and file `pnpm-lock.yaml` and run `pnpm i`.

@@ -40,4 +40,3 @@ Yes, using TypeScript syntax.
 
 Just launch the application in the
 [JavaScript Debug Terminal](https://code.visualstudio.com/docs/editor/debugging#_launch-javascript-debug-terminal).
-

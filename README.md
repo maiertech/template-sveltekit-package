@@ -2,12 +2,11 @@
 
 You probably don't need this template and should just run `npx sv create`.
 
-This is a [SvelteKit](https://svelte.dev/docs/kit/introduction) package project which I use as a [GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template):
+This is a [SvelteKit](https://svelte.dev/docs/kit/introduction) package project which I use as a [GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
 ## Keeping dependencies up-to-date
 
-I update dependencies in this template regularly. Run `npx sv create` to regenerate a
-SvelteKit packageproject into the existing directory.
+Before updating the dependencies in this template, delete `eslint.config.js` because it will not be regenerated if it exists already. Then run `npx sv create` to regenerate a Svelte library project into the existing directory.
 
 ### Where would you like your project to be created?
 
@@ -27,14 +26,18 @@ Yes, using TypeScript syntax.
 
 ### What would you like to add to your project?
 
-- `prettier`
-- `eslint`
-- `vitest`
+- [x] `prettier`
+- [x] `eslint`
+- [x] `vitest`
+
+### Which package manager do you want to install dependencies with?
+
+`pnpm`
 
 ### Wrap it up
 
 - Revert `README.md`.
-- Delete folder `node_modules` and file `pnpm-lock.yaml` and run `pnpm i`.
+- Run `pnpm dev` to test if the app still launches.
 
 ## Debugging
 

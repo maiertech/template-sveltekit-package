@@ -29,6 +29,12 @@ Yes, using TypeScript syntax.
 - [x] `prettier`
 - [x] `eslint`
 - [x] `vitest`
+- [x] `devtools-json`
+
+### vitest: What do you want to use vitest for?
+
+- [x] unit testing
+- [ ] component testing
 
 ### Which package manager do you want to install dependencies with?
 

@@ -1,12 +1,12 @@
 # template-sveltekit-package
 
-You probably don't need this template and should just run `npx sv create`.
+You probably don't need this template and should just run `pnpm dlx sv create`.
 
 This is a [SvelteKit](https://svelte.dev/docs/kit/introduction) package project which I use as a [GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
 ## Keeping dependencies up-to-date
 
-Before updating the dependencies in this template, delete `eslint.config.js` because it will not be regenerated if it exists already. Then run `npx sv create` to regenerate a Svelte library project into the existing directory.
+Before updating the dependencies in this template, delete `eslint.config.js` because it will not be regenerated if it exists already. Then run `pnpm dlx sv create` to regenerate a Svelte library project into the existing directory.
 
 ### Where would you like your project to be created?
 
@@ -29,7 +29,6 @@ Yes, using TypeScript syntax.
 - [x] `prettier`
 - [x] `eslint`
 - [x] `vitest`
-- [x] `devtools-json`
 
 ### vitest: What do you want to use vitest for?
 
